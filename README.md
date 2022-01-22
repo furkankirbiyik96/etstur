@@ -7,7 +7,7 @@ Bu sayede driver sürümlerinden dolayı oluşacak hataların önüne geçilmesi
 Test koşumu sırasında hata alındığında FailScreenShot dosyası altında ilgili tarih ve saat .jpeg dosyası  alınan ekran görüntüsünün adı olarak adlandırılmıştır.<br/> 
 Assertionlar için Junit kütüphanesinden ve bekleme komutları için WaitTool kütüphanesinden yararlanılmıştır.<br/> 
 Proje Maven projesi olup Java dili ile Selenium frameworkundan yararlanılarak geliştirilmiştir.<br/>
-
+Projede dinamik olarak seçilebilir browser ve bölge adı yapısı kurulmuştur. İstenildiğinde firefox veya chrome browserında testler koşulabilir.<br/>
 
 Etstur Tarafından İstenilen Web Test Otomasyonu <br/>
 İlk senaryomuzda senden www.etstur.com altındaki otel akışımız üzerinde otomatik bir test<br/>
