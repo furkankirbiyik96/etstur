@@ -40,10 +40,8 @@ Fail Senaryoları
 * Kişi bilgileri doldurulmadan ödeme adımına ilerle butonuna tıklanır kişi bilgileri ile ilgili fail mesajları kontrol edilir<br/>
 * Ödeme bilgileri doldurulmadan rezervasyonu tamamla butonuna tıklanır Ödeme bilgileri ile ilgili fail mesajları kontrol edilir<br/>
 
-* Chrome da Hotel Reservation Check Test Senaryosu<br/>
+* Chrome'da Hotel Reservation Check Test Senaryosu<br/>
 ![chromeetstur](https://user-images.githubusercontent.com/92547323/150654658-cc7c2d39-06e1-4447-ab16-6aea32ae2967.gif)
 
-* Chrome da Ödeme Sayfası Hatalı Mesaj Kontrolleri<br/>
+* Chrome'da Ödeme Sayfası Hatalı Mesaj Kontrolleri<br/>
 ![paymentinformationfailmessages](https://user-images.githubusercontent.com/92547323/150654790-cea71d27-35c0-4bb4-869f-fe4de1a2a68f.gif)
-
-
