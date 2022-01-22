@@ -42,3 +42,5 @@ Fail Senaryoları
 
 
 ![chromeetstur](https://user-images.githubusercontent.com/92547323/150654658-cc7c2d39-06e1-4447-ab16-6aea32ae2967.gif)
+
+![paymentinformationfailmessages](https://user-images.githubusercontent.com/92547323/150654790-cea71d27-35c0-4bb4-869f-fe4de1a2a68f.gif)
