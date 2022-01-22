@@ -1,13 +1,12 @@
 # Etstur
 ## Etstur Case Study
-Etstur tarafından iletilen case çalışmasının 1. maddesi etsturcasestudy adlı klasörde yer almaktadır. Web Otomasyon Projesi Proje Page Object Model kullanılarak 
-oluşturulmuş olup istenilen senaryonun koşumu tamamlanmıştır.
-Projede io.github.bonigarcia.wdm.WebDriverManager kütüphanesinden yararlanılarak browser driverlarının projeye .exe dosyası olarak eklenmesi yerine 
-driverların github üzerinden indirilerek açılması sağlanmıştır. 
-Bu sayede driver sürümlerinden dolayı oluşacak hataların önüne geçilmesi sağlanmıştır. 
-Test koşumu sırasında hata alındığında FailScreenShot dosyası altında ilgili tarih ve saat .jpeg dosyası  alınan ekran görüntüsünün adı olarak adlandırılmıştır. 
-Assertionlar için Junit kütüphanesinden ve bekleme komutları için WaitTool kütüphanesinden yararlanılmıştır.
-Proje Maven projesi olup Java dili ile Selenium frameworkundan yararlanılarak geliştirilmiştir.
+Etstur tarafından iletilen case çalışmasının 1. maddesi etsturcasestudy adlı klasörde yer almaktadır.<br/> 
+Proje Page Object Model kullanılarak oluşturulmuş olup istenilen senaryonun koşumu tamamlanmıştır.<br/> 
+Projede io.github.bonigarcia.wdm.WebDriverManager kütüphanesinden yararlanılarak browser driverlarının projeye .exe dosyası olarak eklenmesi yerine driverların github üzerinden indirilerek açılması sağlanmıştır.<br/> 
+Bu sayede driver sürümlerinden dolayı oluşacak hataların önüne geçilmesi sağlanmıştır.<br/> 
+Test koşumu sırasında hata alındığında FailScreenShot dosyası altında ilgili tarih ve saat .jpeg dosyası  alınan ekran görüntüsünün adı olarak adlandırılmıştır.<br/> 
+Assertionlar için Junit kütüphanesinden ve bekleme komutları için WaitTool kütüphanesinden yararlanılmıştır.<br/> 
+Proje Maven projesi olup Java dili ile Selenium frameworkundan yararlanılarak geliştirilmiştir.<br/>
 
 
 Etstur Tarafından İstenilen Web Test Otomasyonu <br/>
