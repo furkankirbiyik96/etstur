@@ -39,3 +39,6 @@ Fail Senaryoları
 * Senayo içerisinde bölge Rotterdam seçilerek Arama kriterlerinize uygun bir sonuç bulunamadı. mesajı kontrol edilir.<br/>
 * Kişi bilgileri doldurulmadan ödeme adımına ilerle butonuna tıklanır kişi bilgileri ile ilgili fail mesajları kontrol edilir<br/>
 * Ödeme bilgileri doldurulmadan rezervasyonu tamamla butonuna tıklanır Ödeme bilgileri ile ilgili fail mesajları kontrol edilir<br/>
+
+
+![chromeetstur](https://user-images.githubusercontent.com/92547323/150654658-cc7c2d39-06e1-4447-ab16-6aea32ae2967.gif)
