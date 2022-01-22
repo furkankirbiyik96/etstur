@@ -1,4 +1,4 @@
-# etstur
+# Etstur
 ## Etstur Case Study
 Etstur tarafından iletilen case çalışmasının 1. maddesi etsturcasestudy adlı klasörde yer almaktadır. Web Otomasyon Projesi Proje Page Object Model kullanılarak 
 oluşturulmuş olup istenilen senaryonun koşumu tamamlanmıştır.
@@ -24,18 +24,17 @@ Ek notlar:<br/>
 • Bu akışın içinde bulunan bazı fail case’lerin de otomatize edilmesi de artı kabul edilir.<br/>
 
 Test Stepleri<br/>
-*Hotel Reservation Check Test Senaryosu
+Hotel Reservation Check Test Senaryosu
 * www.etstur.com sitesi açılır.<br/>
 * Kullanıcı login işlemleri gerçekleştirilir.<br/>
 * Login sonrası dinamik olarak değiştirilebilen bölge ismine göre arama yapılarak uygun oteller listelenir.<br/>
-* Kitap, müzik, Film, Hobi menü başlığı mause hover edilerek aşağıya doğru açılan menüde Çok Satanlar menü başlığına tıklanır.<br/>
 * Listelenen otellerden listenin başında yer alan otel seçilir.<br/>
 * Listelenen odalardan ilk oda seçilir.<br/>
 * Kişi bilgileri doldurularak ödeme sayfasına geçilir<br/>
 * Ödeme sayfasında yer alan Rezevasyon özetinde lokasyon bilgisi kontrol edilir ve ödeme bilgileri yanlış kart bilgileri doldurularak ilerlenir.<br/>
 * Rezervasyonunuz tamamlanamadı mesajı görüldüğünde Screenshot alınarak otomasyon sonlandırılır<br/>
 
-*Fail Senaryoları
+Fail Senaryoları
 * Login adımında Kullanıcı adı yanlış girilerek login butonuna tıklanır ve E-posta adresiniz sistemimizde kayıtlı değildir. Lütfen üyelik oluşturunuz. mesajı kontrol edilir.<br/>
 * Login adımında Şifre yanlış girilerek login butonuna tıklanır ve Girdiğiniz şifre yanlış. Lütfen tekrar deneyin. mesajı kontrol edilir.<br/>
 * Senayo içerisinde bölge Rotterdam seçilerek Arama kriterlerinize uygun bir sonuç bulunamadı. mesajı kontrol edilir.<br/>
