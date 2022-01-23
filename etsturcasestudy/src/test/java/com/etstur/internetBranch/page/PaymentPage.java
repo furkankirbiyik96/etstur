@@ -11,11 +11,11 @@ public class PaymentPage extends Payment_Constants {
     }
 
     public PaymentPage setPayment(String cardName,String cardNo,String cvvNo,String areaName){
-        setObjectBy(CARDNAME,"ETSTUR");
-        setObjectBy(CARDNO,"5112352900020320");
+        setObjectBy(CARDNAME,cardName);
+        setObjectBy(CARDNO,cardNo);
         clickObjectBy(CARDVALIDMONTH);
         clickObjectBy(CARDVALIDYEAR);
-        setObjectBy(CVC,"233");
+        setObjectBy(CVC,cvvNo);
         Assert.assertTrue("Rezervasyon Özetinde Hatalı Lokasyon!!!",getElementBy(MAPLOCATION).getText().contains(areaName));
         scrollElement(driver.findElement(SERVISAGGREMENTCHECHBOX));
         clickFirstElementWithJavaScript(SERVISAGGREMENTCHECHBOX);
@@ -40,6 +40,7 @@ public class PaymentPage extends Payment_Constants {
         Assert.assertTrue("Ay Seçiniz mesajı görülemedi",getElementBy(SETMONTHFAILMESSAGE).getText().contains("Ay Seçiniz"));
         Assert.assertTrue("Yıl Seçiniz mesajı görülemedi",getElementBy(SETYEARFAILMESSAGE).getText().contains("Yıl Seçiniz"));
         Assert.assertTrue("CVC giriniz mesajı görülemedi",getElementBy(SETCVVFAILMESSAGE).getText().contains("CVC giriniz"));
+        screenShot();
         return this;
     }
 
